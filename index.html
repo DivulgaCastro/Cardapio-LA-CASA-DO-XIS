@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa do Xis - Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para Font Awesome (para ícone do menu hamburguer) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LA CASA <span class="do">DO</span> XIS</h1>
+            </div>
+            <nav class="nav-menu">
+                <button id="menu-toggle" class="menu-toggle" aria-label="Abrir Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-links">
+                    <li><a href="#combos">Combos</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="combos" class="container section">
+            <h2>Nossos Combos Especiais!</h2>
+            <div class="combos-grid">
+
+                <!-- Combo Kids *01* -->
+                <article class="combo-card">
+                    <img src="images/Lanche.png" alt="X-Burguer" class="combo-img">
+                    <h3>Combo Kids *01*</h3>
+                    <div class="combo-items">
+                        <p><i class="fas fa-hamburger"></i> 1 x Burguer</p>
+                        <p><img src="images/BonecoBatata.png" alt="Batata Frita" class="icon"> 400g Batata Frita</p>
+                        <p><img src="images/refri lata.png" alt="Refrigerante Lata" class="icon"> 1 Refri Lata</p>
+                    </div>
+                    <p class="price">R$ 34,00</p>
+                </article>
+
+                <!-- Combo Casal *02* -->
+                <article class="combo-card">
+                    <img src="images/Lanche.png" alt="X-Salada" class="combo-img">
+                    <h3>Combo Casal *02*</h3>
+                     <div class="combo-items">
+                        <p><i class="fas fa-hamburger"></i> 2 x Salada</p>
+                        <p><img src="images/BonecoBatata.png" alt="Batata Frita" class="icon"> 500g Batata Frita</p>
+                        <p><img src="images/refri lata.png" alt="Refrigerante Lata" class="icon"> 2 Lata de Refrigerante</p>
+                    </div>
+                    <p class="price">R$ 54,00</p>
+                </article>
+
+                <!-- Combo *03* -->
+                <article class="combo-card">
+                    <img src="images/Lanche.png" alt="Combo 3" class="combo-img">
+                    <h3>Combo *03*</h3>
+                     <div class="combo-items">
+                        <p><i class="fas fa-hamburger"></i> 2 x Salada</p>
+                        <p><i class="fas fa-hamburger"></i> 2 x Burguer</p>
+                        <p><img src="images/BonecoBatata.png" alt="Batata Frita" class="icon"> 600g Batata Frita</p>
+                        <p><i class="fas fa-drumstick-bite"></i> 500g Frango a Passarinho</p>
+                        <p><img src="images/Refri2l.png" alt="Refrigerante 2L" class="icon"> Refrigerante 2L</p>
+                    </div>
+                    <p class="price">R$ 95,00</p>
+                </article>
+
+                <!-- Combo *04* -->
+                <article class="combo-card">
+                    <img src="images/Lanche.png" alt="Combo 4" class="combo-img">
+                    <h3>Combo *04*</h3>
+                     <div class="combo-items">
+                        <p><i class="fas fa-hamburger"></i> 2 x Salada</p>
+                        <p><i class="fas fa-hamburger"></i> 2 x Burguer</p>
+                        <p><i class="fas fa-hamburger"></i> 2 x Frango</p>
+                        <p><img src="images/BonecoBatata.png" alt="Batata Frita" class="icon"> 600g Batata Frita</p>
+                        <p><i class="fas fa-pepper-hot"></i> 600g Calabresa</p> <!-- Ícone aproximado -->
+                        <p><img src="images/Refri2l.png" alt="Refrigerante 2L" class="icon"> Refrigerante 2L</p>
+                    </div>
+                    <p class="price">R$ 146,00</p>
+                </article>
+
+                 <!-- Combo *05* -->
+                 <article class="combo-card">
+                    <img src="images/Lanche.png" alt="Combo 5" class="combo-img">
+                    <h3>Combo *05*</h3>
+                     <div class="combo-items">
+                        <p><i class="fas fa-hamburger"></i> 2 x Frango</p>
+                        <p><i class="fas fa-pepper-hot"></i> 2 x Calabresa</p> <!-- Ícone aproximado -->
+                        <p><i class="fas fa-bacon"></i> 2 x Bacon</p> <!-- Ícone aproximado -->
+                        <p><i class="fas fa-pepper-hot"></i> 500g Calabresa</p> <!-- Ícone aproximado -->
+                        <p><i class="fas fa-drumstick-bite"></i> 500g Frango a Passarinho</p>
+                        <p><img src="images/Refri2l.png" alt="Refrigerante 2L" class="icon"> Refrigerante 2L</p>
+                    </div>
+                    <p class="price">R$ 146,00</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cardapio" class="container section">
+            <h2>Cardápio Completo</h2>
+            <div class="cardapio-images">
+                <img src="images/Cardapio1.png" alt="Cardápio Porções">
+                <img src="images/Cardapio2.jpeg" alt="Cardápio Hambúrgueres e Bebidas">
+            </div>
+        </section>
+
+        <section id="contato" class="container section contact-section">
+             <h2>Peça pelo Delivery!</h2>
+             <div class="contact-info">
+                <img src="images/Motoboy.png" alt="Delivery Motoboy" class="motoboy-img">
+                <div class="contact-details">
+                    <p class="phone-number">
+                        <i class="fab fa-whatsapp"></i> WhatsApp: (42) 99955-4604
+                    </p>
+                     <p class="phone-number-alt">
+                        <i class="fas fa-phone"></i> Telefone: 42999554604
+                    </p>
+                    <p class="address">
+                        <i class="fas fa-map-marker-alt"></i> Rua Valdevina Rodrigues dos Santos, 3 Castro
+                    </p>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+             <div class="logo-footer">
+                <h3>LA CASA <span class="do">DO</span> XIS</h3>
+            </div>
+            <p>©La Casa do Xis. Todos os direitos reservados.</p>
+            <p>Rua Valdevina Rodrigues dos Santos, 3 - Castro | Delivery: (42) 99955-4604</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
